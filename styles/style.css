@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+
+}
+
+.banner-main {
+    max-width: 992px;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* padding: 20px; */
+
+
+}
+
+.banner-image {
+
+    background-image: url('../Images/banner.png');
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 992px;
+    text-align: center;
+    color: #FFFFFF;
+    object-fit: cover;
+    border-radius: 16px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.banner-title {
+    font-size: 54px;
+    font-weight: 800;
+}
+
+.banner-description {
+    max-width: 550px;
+    font-size: 15px;
+    font-weight: 400;
+    /* margin: 20px auto; */
+}
+
+.banner-input{
+    padding: 10px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.btn-primary{
+    background-color: #FF5400;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 150px;
+    border-radius: 8px;
+
+}
