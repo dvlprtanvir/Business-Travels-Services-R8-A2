@@ -1,11 +1,15 @@
 @media screen and (max-width:425px) {
 
+    *{
+        margin-left: 12px;
+    }
+
     .banner-image {
         height: auto;
 
         width: auto;
-        padding: 20px ;
-        
+        padding: 20px;
+
     }
 
     .banner-form {
@@ -13,18 +17,46 @@
         flex-direction: column;
         gap: 5px;
         margin-bottom: 5px;
-        height: auto;    
-       
-    }
-    
-    .popular-tours-main{
-        display: flex;
-        flex-direction:  column-reverse;
+        height: auto;
 
     }
-    .popular-tours-img img{
-        margin: 0 auto ;
+
+    .popular-tours-main {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .popular-tours-img img {
+        margin: 0 auto;
         width: 330px;
+    }
+
+    .destination-section h1 {
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+        
+    }
+    .destination-section p {
+        color: rgba(19, 19, 24, 0.7);
+        font-size: 16px;
+        font-weight: 400;
+        margin: 32px auto;
+        width: 300px;
+    }
+    .grid-container-one{
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .grid-container-two{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .grid-container-three{
+        grid-template-columns: repeat(1, 1fr);
+
     }
 
 }
