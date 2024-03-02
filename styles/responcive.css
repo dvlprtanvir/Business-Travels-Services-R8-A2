@@ -13,11 +13,10 @@
         flex-direction: column;
         gap: 5px;
         margin-bottom: 5px;
-        height: auto;
-        
-
-        /* width: 160px; */
+        height: auto;    
+       
     }
+    
     .popular-tours-main{
         display: flex;
         flex-direction:  column-reverse;
