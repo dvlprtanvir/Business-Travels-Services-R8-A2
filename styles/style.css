@@ -292,16 +292,15 @@ footer {
     margin-right: 10px;
 }
 
+
 /* newsletter styles start */
 
 .newsletter-main {
-    /* border: 5px solid #FF5400; */
     max-width: 992px;
     margin: 0 auto;
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .newsletter-content {
@@ -309,11 +308,8 @@ footer {
     box-sizing: border-box;
     border: 1px solid rgb(255, 84, 0);
     border-radius: 16px;
-
     padding: 50px 10px;
-    margin:  0 20px 0 0;
-    /* border: 5px solid black; */
-    /* margin: 100px 40px; */
+    margin: 0 20px 0 0;
     width: 40%;
     height: 100%;
 }
@@ -322,7 +318,6 @@ footer {
     color: rgb(19, 19, 24);
     font-size: 24px;
     font-weight: 800;
-    /* text-align: left; */
 }
 
 .newsletter-description {
@@ -330,8 +325,6 @@ footer {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    /* letter-spacing: 0%; */
-    /* text-align: left; */
 }
 
 .newsletter-line {
@@ -356,13 +349,11 @@ footer {
     padding: 5px;
     margin: 5px;
     width: 250px;
-
 }
 
 .newsletter-img-container {
     width: 100%;
     position: relative;
-    /* border: 5px solid blue; */
 }
 
 .newsletter-img-container img {
