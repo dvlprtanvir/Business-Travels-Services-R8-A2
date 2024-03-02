@@ -197,3 +197,49 @@
 
 
 /* Choose Your Destination-section styles finish */
+
+
+
+
+
+/* Choose-Us-section styles start */
+
+.choose-us-section {
+    max-width: 992px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.choose-us-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+
+
+.single-card {
+    /* width: 300px; */
+    flex-basis: 400px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: left;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#card-one{
+    background-color: #FBB5630D;
+}
+#card-two{
+    background-color: #29CEF60D;
+}
+#card-three{
+    background-color: #E944440D;
+}
+
+
+/* Choose-Us-section styles finish */
