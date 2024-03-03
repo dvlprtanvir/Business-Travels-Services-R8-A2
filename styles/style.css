@@ -211,6 +211,16 @@
     text-align: center;
 }
 
+.choose-us-title {
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
 .choose-us-cards {
     display: flex;
     flex-wrap: wrap;
@@ -316,7 +326,7 @@ footer {
 
 .newsletter-title {
     color: rgb(19, 19, 24);
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 800;
 }
 
